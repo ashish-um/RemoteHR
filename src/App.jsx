@@ -7,6 +7,7 @@ import OfferLetter from './pages/OfferLater'
 import ChatBot from './components/chatBot'
 import VerifyDocument from './pages/VerifyDocument'
 import { SignedIn, SignedOut, SignInButton, UserButton } from '@clerk/clerk-react'
+import HRChatbot from './pages/HRChatbot'
 // import { configDotenv } from 'dotenv'
 
 function App() {
@@ -15,7 +16,9 @@ function App() {
 
   return (
     <>
-      <div className="flex flex-col">
+    <HRChatbot/>
+    {/* <Hiring/> */}
+      {/* <div className="flex flex-col">
         <header className='border-2 w-14'>
           <SignedOut>
             <SignInButton />
@@ -28,7 +31,7 @@ function App() {
         <OfferLetter />
         <ChatBot />
         <VerifyDocument />
-      </div>
+      </div> */}
     </>
   )
 }

@@ -9,5 +9,15 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
+    <!-- Start of  Engage Bot code -->
+    <!--(optional) You can pass visitor's name, email and phone as window object window.name, window.email and window.phone -->
+    <script type='module'>
+      window.botId =  '1cbe7e9f-7326-4a6f-bddc-a4e027141c1d';
+      window.baseUrl = 'https://app.engagebot.works';
+      window.isOpenChat = false;
+      import engage from 'https://app.engagebot.works/api/file/plugin.js';
+      engage();
+    </script>
+      <!-- End of Engage Bot code -->
   </body>
 </html>
